@@ -5,6 +5,15 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true
   },
-  target: 'static', // This will make us full static, without api calls asyncData and fetch.
-  ssr: false
+  target: 'static',
+  ssr: false,
+  css: ['vuetify/lib/styles/main.sass'],
+  build: {
+    transpile: ['vuetify']
+  },
+  vite: {
+    define: {
+      'process.env.DEBUG': false
+    }
+  }
 })
