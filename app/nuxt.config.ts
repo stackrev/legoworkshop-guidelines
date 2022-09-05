@@ -16,5 +16,8 @@ export default defineNuxtConfig({
     define: {
       'process.env.DEBUG': false
     }
+  },
+  router: {
+    base: 'https://adamd1985.github.io/legoworkshop-guidelines/'
   }
 })
