@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   },
   target: 'static',
   ssr: false,
-  css: ['vuetify/lib/styles/main.sass'],
+  css: ['vuetify/lib/styles/main.sass', '@/assets/css/main.css'],
   build: {
     transpile: ['vuetify']
   },
