@@ -18,6 +18,6 @@ export default defineNuxtConfig({
     }
   },
   router: {
-    base: 'https://adamd1985.github.io/legoworkshop-guidelines/'
+    base: '/legoworkshop-guidelines/'
   }
 })
