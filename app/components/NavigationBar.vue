@@ -5,12 +5,12 @@
       app
       temporary
       dark
-      src="@/assets/img/bgDrawer.jpg"
+      src="/bgDrawer.jpg"
     >
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
-            <img src="@/assets/img/logo.png" alt="Logo">
+            <img src="/logo.png" alt="Logo">
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title class="title">
@@ -53,7 +53,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
+        <v-img src="/logo.png" max-width="50px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon

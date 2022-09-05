@@ -37,7 +37,7 @@
           cols="12"
           md="6"
         >
-          <v-img src="/assets/img/contact.jpeg" height="450px" />
+          <v-img src="/contact.jpeg" height="450px" />
         </v-col>
       </v-row>
     </v-container>

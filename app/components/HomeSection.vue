@@ -2,7 +2,7 @@
   <div id="home" class="white-box">
     <section id="hero" dark>
       <div>
-        <v-parallax dark src="/assets/img/bgHero.jpeg" max-height="1024px">
+        <v-parallax dark src="/bgHero.jpeg" max-height="1024px">
           <v-row align="center" justify="center">
             <v-col cols="10">
               <v-row align="center" justify="center">
@@ -37,7 +37,7 @@
           </v-row>
 
           <div class="svg-border-waves mx-0 px-0">
-            <img src="/assets/img/wave2.svg">
+            <img src="~/assets/img/wave2.svg">
           </div>
         </v-parallax>
       </div>
@@ -87,14 +87,14 @@
             cols="12"
             md="6"
           >
-            <v-img src="/assets/img/scrum.jpeg" height="450px" />
+            <v-img src="/scrum.jpeg" height="450px" />
           </v-col>
         </v-row>
 
         <div class="py-12" />
 
         <div class="svg-border-waves mx-0 px-0">
-          <img src="/assets/img/wave.svg">
+          <img src="~/assets/img/wave.svg">
         </div>
       </v-container>
     </section>
