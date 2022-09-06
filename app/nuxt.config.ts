@@ -29,8 +29,8 @@ export default defineNuxtConfig({
   image: {
     presets: {
       gh: {
-        baseURL: "/legoworkshop-guidelines"
+        baseURL: '/legoworkshop-guidelines'
       }
     }
-    }
+  }
 })

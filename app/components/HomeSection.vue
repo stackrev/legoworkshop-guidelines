@@ -87,7 +87,7 @@
             cols="12"
             md="6"
           >
-            <nuxt-img src="/scrum.png" sizes="sm:95vw md:45vw" preset="gh"/>
+            <nuxt-img src="/scrum.png" sizes="sm:95vw md:45vw" />
           </v-col>
         </v-row>
 
