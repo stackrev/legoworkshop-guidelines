@@ -3,11 +3,11 @@
     <div class="py-12" />
 
     <v-container class="text-center">
-      <div class="text-h5 font-weight-bold mb-3">
+      <div class="text-md-h4 text-h5 font-weight-bold mb-3">
         Register
       </div>
 
-      <v-responsive class="mx-auto mb-12" width="56">
+      <v-responsive class="mx-auto mb-12" width="70vw">
         <v-divider class="mb-1" />
 
         <v-divider />
@@ -37,7 +37,7 @@
           cols="12"
           md="6"
         >
-          <v-img src="~/assets/img/contact.jpeg" height="450px" />
+          <nuxt-img src="/contact.png" sizes="sm:95vw md:45vw" />
         </v-col>
       </v-row>
     </v-container>

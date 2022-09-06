@@ -2,7 +2,7 @@
   <div id="home" class="white-box">
     <section id="hero" dark>
       <div>
-        <v-parallax dark src="~/assets/img/bgHero.jpeg" max-height="1024px">
+        <v-parallax dark :src="bgHeroUrl" max-height="1024px">
           <v-row align="center" justify="center">
             <v-col cols="10">
               <v-row align="center" justify="center">
@@ -46,11 +46,11 @@
       <div class="py-12" />
 
       <v-container class="text-center">
-        <div class="text-h5 font-weight-bold mb-3">
+        <div class="text-md-h4 text-h5 font-weight-bold mb-3">
           An Agile Development Training
         </div>
 
-        <v-responsive class="mx-auto mb-8" width="150">
+        <v-responsive class="mx-auto mb-8" width="70vw">
           <v-divider class="mb-1" />
         </v-responsive>
 
@@ -87,7 +87,7 @@
             cols="12"
             md="6"
           >
-            <v-img src="~/assets/img/scrum.jpeg" height="450px" />
+            <nuxt-img src="/scrum.png" sizes="sm:95vw md:45vw" />
           </v-col>
         </v-row>
 
@@ -100,6 +100,16 @@
     </section>
   </div>
 </template>
+
+<script>
+import bgHeroImage from '~/assets/img/bgHero.png'
+
+export default {
+  data: () => ({
+    bgHeroUrl: bgHeroImage
+  })
+}
+</script>
 
 <style scoped>
 .banner{

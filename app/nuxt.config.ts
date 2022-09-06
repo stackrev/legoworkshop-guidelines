@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify']
   },
+  modules: [
+    '@nuxt/image-edge'
+  ],
   plugins: ['~/plugins/vuetify.ts'],
   vite: {
     define: {
@@ -21,9 +24,9 @@ export default defineNuxtConfig({
     base: '/legoworkshop-guidelines'
   },
   publicRuntimeConfig: {
-    BASE_URL: '/legoworkshop-guidelines',
+    BASE_URL: '/legoworkshop-guidelines'
   },
   app: {
-    baseURL: '/legoworkshop-guidelines',
+    baseURL: '/legoworkshop-guidelines'
   }
 })
