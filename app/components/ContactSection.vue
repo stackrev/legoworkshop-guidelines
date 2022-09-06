@@ -37,7 +37,7 @@
           cols="12"
           md="6"
         >
-          <nuxt-img src="/contact.png" sizes="sm:95vw md:45vw" />
+          <nuxt-img src="/contact.png" sizes="sm:95vw md:45vw" preset="gh"/>
         </v-col>
       </v-row>
     </v-container>
