@@ -23,10 +23,14 @@ export default defineNuxtConfig({
   router: {
     base: '/legoworkshop-guidelines'
   },
-  publicRuntimeConfig: {
-    BASE_URL: '/legoworkshop-guidelines'
-  },
   app: {
     baseURL: '/legoworkshop-guidelines'
-  }
+  },
+  image: {
+    presets: {
+      gh: {
+        baseURL: "/legoworkshop-guidelines"
+      }
+    }
+    }
 })
