@@ -17,18 +17,22 @@
           cols="12"
           md="6"
         >
-          <v-form ref="form" method="POST" class="contact-form text-h5">
+          <v-form ref="form" method="POST" class="contact-form text-md-h5 text-h7">
             <v-responsive
               class="mx-auto font-weight-light mb-8"
               max-width="820"
             >
+              <span>
               To register, send an email with your names to:
+              </span>
             </v-responsive>
             <v-responsive
               class="mx-auto mb-8 text-center"
               max-width="820"
             >
-              <b><a href="mailto: adam.darmanin@blackrock.com">adam.darmanin@blackrock.com</a></b>
+              <span style="overflow: visible;">
+               <b><a href="mailto: adam.darmanin@blackrock.com">adam.darmanin@blackrock.com</a></b>
+              </span>
             </v-responsive>
           </v-form>
         </v-col>
@@ -36,7 +40,7 @@
           cols="12"
           md="6"
         >
-          <v-img :src="contactUrl" class="rounded-lg" height="50vh"/>
+          <v-img :src="contactUrl" class="rounded-lg" height="40vh"/>
         </v-col>
       </v-row>
     </v-container>
@@ -45,7 +49,7 @@
 </template>
 
 <script>
-import contactImage from '~/assets/img/contact.png'
+import contactImage from '~/assets/img/agile.png'
 
 export default {
   data: () => ({

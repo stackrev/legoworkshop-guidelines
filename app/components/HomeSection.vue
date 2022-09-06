@@ -25,7 +25,7 @@
                     </div>
                     <div
                       style="z-index: 10;"
-                      class="text-md-h1 text-h4 font-weight-black transition-swing text-left text-decoration-underline mt-md-10 mt-4 mb-6 banner"
+                      class="text-md-h2 text-h5 font-weight-black transition-swing text-left text-decoration-underline mt-md-10 mt-4 mb-6 banner"
                     >
                       With LEGO!
                     </div>
@@ -91,6 +91,8 @@
           </v-col>
         </v-row>
 
+        <div class="py-12" />
+        <div class="py-12" />
         <div class="py-12" />
 
         <div class="svg-border-waves mx-0 px-0">

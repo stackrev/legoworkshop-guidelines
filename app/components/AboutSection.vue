@@ -4,7 +4,7 @@
       <div class="py-12" />
       <v-container class="text-center">
         <div class="text-md-h4 text-h5 font-weight-bold mb-3">
-          Learn through Gamification
+          Learn with Gamification
         </div>
 
         <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
@@ -121,9 +121,9 @@ export default {
   computed: {
       height () {
         switch (this.$vuetify.display.name) {
-          case 'xs': return 1000
-          case 'sm': return 900
-          default: return 800
+          case 'xs': return 800
+          case 'sm': return 800
+          default: return 650
         }
       },
     },
