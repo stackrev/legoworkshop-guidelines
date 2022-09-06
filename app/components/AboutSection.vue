@@ -12,7 +12,7 @@
         </v-responsive>
 
         <v-card class="mx-0 px-0" height="450px" flat>
-          <v-parallax fluid class="mx-0 px-0" src="/bgHero2.jpg" height="450px" />
+          <v-parallax fluid class="mx-0 px-0" src="~/assets/img/bgHero2.jpg" height="450px" />
         </v-card>
 
         <v-responsive class="mx-auto mt-8" width="150">

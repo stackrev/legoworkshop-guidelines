@@ -2,7 +2,7 @@
   <div id="home" class="white-box">
     <section id="hero" dark>
       <div>
-        <v-parallax dark src="/bgHero.jpeg" max-height="1024px">
+        <v-parallax dark src="~/assets/img/bgHero.jpeg" max-height="1024px">
           <v-row align="center" justify="center">
             <v-col cols="10">
               <v-row align="center" justify="center">
@@ -87,7 +87,7 @@
             cols="12"
             md="6"
           >
-            <v-img src="/scrum.jpeg" height="450px" />
+            <v-img src="~/assets/img/scrum.jpeg" height="450px" />
           </v-col>
         </v-row>
 
