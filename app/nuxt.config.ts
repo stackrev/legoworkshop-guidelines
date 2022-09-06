@@ -2,12 +2,20 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  generate: {
+    nojekyll: true,
+  },
+  head: {
+    link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' }
+    ]
+  },
   typescript: {
     typeCheck: true
   },
   target: 'static',
   ssr: false,
-  css: ['vuetify/lib/styles/main.sass', '@/assets/css/main.css'],
+  css: ['vuetify/lib/styles/main.sass', '@/assets/css/main.scss'],
   build: {
     transpile: ['vuetify']
   },
@@ -26,11 +34,5 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/legoworkshop-guidelines'
   },
-  image: {
-    presets: {
-      gh: {
-        baseURL: '/_ipx/legoworkshop-guidelines'
-      }
-    }
-  }
+  
 })

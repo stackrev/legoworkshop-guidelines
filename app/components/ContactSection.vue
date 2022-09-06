@@ -7,11 +7,10 @@
         Register
       </div>
 
-      <v-responsive class="mx-auto mb-12" width="70vw">
-        <v-divider class="mb-1" />
+      <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
+          <v-divider class="mb-1" />
+        </v-responsive>
 
-        <v-divider />
-      </v-responsive>
 
       <v-row align="center" justify="center">
         <v-col
@@ -37,10 +36,20 @@
           cols="12"
           md="6"
         >
-          <nuxt-img src="/contact.png" sizes="sm:95vw md:45vw" preset="gh"/>
+          <v-img :src="contactUrl" class="rounded-lg" height="50vh"/>
         </v-col>
       </v-row>
     </v-container>
     <div class="py-12" />
   </section>
 </template>
+
+<script>
+import contactImage from '~/assets/img/contact.png'
+
+export default {
+  data: () => ({
+    contactUrl: contactImage,
+  })
+}
+</script>

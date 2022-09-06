@@ -7,17 +7,19 @@
           Learn through Gamification
         </div>
 
-        <v-responsive class="mx-auto mb-8" width="70vw">
+        <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
           <v-divider class="mb-1" />
         </v-responsive>
+
 
         <v-card class="mx-0 px-0" height="450px" flat>
           <v-parallax fluid class="mx-0 px-0" :src="bgHeroUrl" height="450px" />
         </v-card>
 
-        <v-responsive class="mx-auto mt-8" width="150">
+        <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
           <v-divider class="mb-1" />
         </v-responsive>
+
         <v-responsive
           class="mx-auto font-weight-light mb-8"
           max-width="820"
@@ -29,16 +31,16 @@
               cols="12"
               md="6"
             >
-              <v-card class="py-12 px-4" height="580" style="background-color: #8D8B8E; overflow: visible;">
-                <v-card-subtitle
-                  class="justify-center font-weight-medium text-h5 mb-12"
+              <v-card class="py-12 px-4" :height="height" style="background-color: #8D8B8E; overflow: visible;">
+                <v-card-title
+                  class="justify-center  mb-12"
                   style="overflow: visible"
                 >
                   Workshop Agenda
-                </v-card-subtitle>
+                </v-card-title>
 
                 <v-card-text class="text-left">
-                  <div class="ml-12">
+                  <div class="ml-md-12 ml-3">
                     In the first 30 minutes:
 
                     <li>Organizing teams</li>
@@ -69,16 +71,16 @@
               cols="12"
               md="6"
             >
-              <v-card class="py-12 px-4" height="580" style="background-color: #8D8B8E">
-                <v-card-subtitle
-                  class="justify-center font-weight-medium text-h5 mb-12"
-                  style="overflow: visible"
+              <v-card class="py-12 px-4" :height="height" style="background-color: #8D8B8E">
+                <v-card-title
+                  class="justify-center mb-12"
+                  style="overflow: visible; overflow-wrap: break-word"
                 >
-                  What you will Experience
-                </v-card-subtitle>
+                  You will Experience
+                </v-card-title>
 
                 <v-card-text class="text-left">
-                  <div class="ml-12">
+                  <div class="ml-md-12 ml-3">
                     <li>Understanding stakeholders needs in a clear and engaging way.</li>
                     <li>Write user stories to define valuable work to your product or service.</li>
                     <li>Communication within iterations and shared engagement wth our peers.</li>
@@ -114,7 +116,17 @@ import bgHeroImage from '~/assets/img/bgHero2.png'
 export default {
   data: () => ({
     bgHeroUrl: bgHeroImage
-  })
+  }),
+
+  computed: {
+      height () {
+        switch (this.$vuetify.display.name) {
+          case 'xs': return 1000
+          case 'sm': return 900
+          default: return 800
+        }
+      },
+    },
 }
 </script>
 

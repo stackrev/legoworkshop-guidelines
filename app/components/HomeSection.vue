@@ -1,15 +1,15 @@
 <template>
   <div id="home" class="white-box">
-    <section id="hero" dark>
+    <section id="hero" dark class="mx-0 px-0">
       <div>
-        <v-parallax dark :src="bgHeroUrl" max-height="1024px">
+        <v-parallax dark :src="bgHeroUrl" max-height="1024px" class="mb-10 pb-4">
           <v-row align="center" justify="center">
             <v-col cols="10">
               <v-row align="center" justify="center">
                 <v-col cols="12" md="6" xl="8">
                   <div class=" mt-md-16 pt-md-16 mt-6 pt-6">
                     <div
-                      class="text-md-h1 text-h4 font-weight-black transition-swing text-left banner"
+                      class="text-md-h1 text-h4 font-weight-black transition-swing text-left banner lego-font"
                     >
                       Agile
                     </div>
@@ -45,12 +45,12 @@
     <section id="features" class=" ">
       <div class="py-12" />
 
-      <v-container class="text-center">
+      <v-container class="text-center mt-0 pt-0">
         <div class="text-md-h4 text-h5 font-weight-bold mb-3">
           An Agile Development Training
         </div>
 
-        <v-responsive class="mx-auto mb-8" width="70vw">
+        <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
           <v-divider class="mb-1" />
         </v-responsive>
 
@@ -87,7 +87,7 @@
             cols="12"
             md="6"
           >
-            <nuxt-img src="/scrum.png" sizes="sm:95vw md:45vw" preset="gh"/>
+            <v-img :src="scrumUrl" class="rounded-lg mb-12" height="50vh"/>
           </v-col>
         </v-row>
 
@@ -103,10 +103,12 @@
 
 <script>
 import bgHeroImage from '~/assets/img/bgHero.png'
+import scrumImage from '~/assets/img/scrum.png'
 
 export default {
   data: () => ({
-    bgHeroUrl: bgHeroImage
+    bgHeroUrl: bgHeroImage,
+    scrumUrl: scrumImage,
   })
 }
 </script>
