@@ -49,6 +49,9 @@
         <div class="text-md-h4 text-h5 font-weight-bold mb-3">
           An Agile Development Training
         </div>
+        <div class="text-md-h6 text-h7 font-weight-bold mb-3">
+          21st September 11-12:30pm - Room 4.01
+        </div>
 
         <v-responsive class="mx-auto mb-md-12 mb-5 mt-md-12 mt-5" width="70vw">
           <v-divider class="mb-1" />
@@ -64,10 +67,12 @@
                 class="mx-auto mb-8"
                 max-width="620"
               >
-                Coaching Agile Development in a safe simulation with Lego gamification, is a modern method for ingraining <b>capacity planning</b>,
-                <b>iterative execution</b>, and <b>self-organizataton principles</b> within a squad of professionals, these being a mix of engineering,
+                Coaching Agile Development in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning</b>,
+                <b>iterative execution</b>, and <b>self-organization principles</b> within a squad of professionals. 
+                <br/>
+                All are encouraged to join, a good squad is a mix of engineering,
                 sales, graphics, business and product.
-                The challenge in this training is to build the best city possible with Lego™ building blocks, that meets the requirements of the "Product Owner”.
+                The challenge in this training is to build the best city possible with Lego™ building blocks, that meets the requirements of the "Product Owner”, within a set of restrictions.
               </v-responsive>
               <v-responsive
                 class="mx-auto mb-8"

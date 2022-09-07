@@ -34,6 +34,18 @@
                <b><a href="mailto: adam.darmanin@blackrock.com">adam.darmanin@blackrock.com</a></b>
               </span>
             </v-responsive>
+            <v-responsive
+              class="mx-auto font-weight-light mb-8"
+              max-width="820"
+            >
+              <span>
+
+                See you on the 21st of September at 11-12:30pm, in Room 4.01.
+                <br/>
+                Be there or be square &#128526;,<br/>and the only good square, is a lego block! 
+  
+              </span>
+            </v-responsive>
           </v-form>
         </v-col>
         <v-col
