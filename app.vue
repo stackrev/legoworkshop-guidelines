@@ -56,9 +56,6 @@ export default {
       if (typeof window === 'undefined') { return }
       const top = window.pageYOffset || e.target.scrollTop || 0
       this.fab = top > 60
-    },
-    toTop () {
-      this.$vuetify.goTo(0)
     }
   }
 }
@@ -66,7 +63,6 @@ export default {
 
 <style scoped>
 .v-main {
-  background-image: url("/bgMain.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

@@ -33,4 +33,9 @@ section {
 
 .lego-yellow{
     background-color: #FFE330;
+    color: #FFE330;
+}
+
+html {
+    scroll-behavior: smooth;
 }

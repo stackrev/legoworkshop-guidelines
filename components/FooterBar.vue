@@ -11,7 +11,7 @@
         class="primary lighten-2 py-4 text-center white--text"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <strong>Adam Darmanin | Director | BlackRock</strong>
+        2022 - <strong>Adam Darmanin | Director | BlackRock - Alphagen</strong>
       </v-col>
     </v-row>
   </v-footer>

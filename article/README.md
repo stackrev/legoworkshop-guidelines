@@ -85,7 +85,7 @@ Don't forget to add the **--fix** to the linting command created in your package
 Let's plan our event app. We know we want a landing page, a registration page with sends these somewhere and an articles page, so that our organizers can generate content to be displayed.
 Breaking it down in a Nuxt structure, this is what we plan:
 
-- | *public*/: robots.txt and favicon.ico.
+- | *static*/: robots.txt and favicon.ico.
 - | *plugins*/: Additional libraries, in our case we will add Vuetify.
 - | *assets*/: Images and CSS we will deploy to the users.
 - | *pages*/: Pages we will deploy. Nuxt will automatically import anything here.

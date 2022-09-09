@@ -6,6 +6,9 @@ extends:
   - plugin:vue/vue3-recommended
   - plugin:@typescript-eslint/recommended
   - '@nuxtjs/eslint-config-typescript'
+ignorePatterns:
+  - "**/.nuxt/*"
+  - "**/dist/*"
 overrides: []
 parser: 'vue-eslint-parser'
 parserOptions:

@@ -3,11 +3,12 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   generate: {
-    nojekyll: true,
+    nojekyll: true
   },
   head: {
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' },
+      { rel: 'icon', type: 'image/x-icon', href: '~/favicon.ico' }
     ]
   },
   typescript: {
@@ -33,6 +34,6 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/legoworkshop-guidelines'
-  },
-  
+  }
+
 })
