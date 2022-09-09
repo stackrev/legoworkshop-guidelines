@@ -73,8 +73,10 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run generate
       - name: Checkout
         uses: actions/checkout@v2.4.2
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v1.0.10
+      - name: Build Yarn and npm
+        uses: linchpin/action-build-yarn-npm@master
+      - name: Nuxt to Github Pages
+        uses: ashkantaravati/NuxtToGithubPages@v1.0
 
   # Deployment job
   deploy:
