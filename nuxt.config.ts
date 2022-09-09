@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' },
       { rel: 'icon', type: 'image/x-icon', href: '/guidelines/favicon.ico' },
-      { rel: 'icon', type: 'image/x-icon', href: '~/favicon.ico' }
     ]
   },
   typescript: {
