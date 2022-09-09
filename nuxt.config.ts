@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true
   },
+  mode: 'universal',
   target: 'static',
   ssr: false,
   css: ['vuetify/lib/styles/main.sass', '@/assets/css/main.scss'],
