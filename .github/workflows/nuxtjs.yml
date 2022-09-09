@@ -87,4 +87,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         run: |
-          yarn deploy
+          cd ${{ github.workspace }} && yarn deploy
