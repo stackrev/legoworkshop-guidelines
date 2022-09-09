@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint --fix --ext .ts,.js,.vue .",
-    "deploy": "cp ./assets/.nojekyll ./dist && push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "cp ./assets/.nojekyll ./dist && mkdir ./dist/legoworkshop-guidelines && cp ./dist/favicon.ico ./dist/legoworkshop-guidelines/favicon.ico &&  push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",

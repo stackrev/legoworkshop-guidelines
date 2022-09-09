@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   head: {
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' },
-      { rel: 'icon', type: 'image/x-icon', href: '/legoworkshop-guidelines/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '~/favicon.ico' },
     ],
     titleTemplate: 'Agile Development Workshop',
     meta: [
