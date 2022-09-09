@@ -87,6 +87,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-        artifact_name: .output/public
+        uses: actions/deploy-pages@v1.0.10
+        with:
+          artifact_name: .output/public
