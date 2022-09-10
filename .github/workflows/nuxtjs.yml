@@ -45,12 +45,11 @@ jobs:
         uses: actions/upload-pages-artifact@v1.0.4
         with:
           path: ./dist
-          name: github-pages
         
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://adamd1985.github.io/legoworkshop-guidelines
     runs-on: ubuntu-latest
     needs: build
     steps:
