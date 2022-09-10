@@ -104,7 +104,7 @@
           <div class="py-12" />
           <a href="#home" style="text-decoration: none; color: inherit;">
             <v-btn
-              color="#FFE330"
+              color="#D3D3D3"
               fab
               outlined
               class="rounded-circle"
