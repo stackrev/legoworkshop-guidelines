@@ -22,7 +22,7 @@
               max-width="820"
             >
               <span>
-                We only have 20 places. To register, send an email to:
+                We only have 20 places. To attend, send an email to:
               </span>
             </v-responsive>
             <v-responsive
