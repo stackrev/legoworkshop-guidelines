@@ -70,11 +70,15 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+        run: yarn generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        run: |
+          ls && yarn deploy
 
   # Deployment job
   deploy:
@@ -86,4 +90,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        run: |
+          ls && yarn deploy
