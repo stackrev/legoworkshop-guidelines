@@ -44,9 +44,8 @@ jobs:
         run: yarn install
       - name: Generate Static Content
         run: yarn generate
-      - name: Setup GIT
+      - name: Setup GIT and Deploy to GHPages
         run: |
           git config --global user.name "GH Actions"
           git config --global user.email "adamd1985@users.noreply.github.com"
-      - name: Deploy to GHPages
-        run: yarn deploy
+          yarn deploy
