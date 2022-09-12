@@ -8,12 +8,12 @@ export default defineNuxtConfig({
   head: {
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oswald|Libre+Baskerville&display=swap' },
-      { hid: 'icon', rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { hid: 'icon', rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ],
     titleTemplate: 'Agile Development Workshop',
     meta: [
       { charset: 'utf-8' },
-      { hid: 'description', name: 'Coaching Agile Development in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning, iterative execution, and self-organization principles within a squad of professionals.', content: 'Meta description' },
+      { hid: 'description', name: 'Coaching Agile Development in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning, iterative execution, and self-organization principles within a squad of professionals.', content: 'Meta description' }
     ]
   },
   typescript: {

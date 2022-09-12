@@ -69,7 +69,7 @@
                 class="mx-auto mb-8 text-body-1"
                 max-width="620"
               >
-                Coaching Agile Development in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning</b>,
+                Coaching Agile Development, in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning</b>,
                 <b>iterative execution</b>, and <b>self-organization principles</b> within a squad of professionals.
                 <br><br>
                 All are encouraged to join, a good squad is a mix of engineering,

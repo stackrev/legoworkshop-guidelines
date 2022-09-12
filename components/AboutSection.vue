@@ -50,20 +50,21 @@
                     <li>Project chartering</li>
 
                     <br>
-                    The next 15mins is when the blocks come out, and here we will:
+                    The next 15mins is when we plan our building blocks, here we will:
 
-                    <li>Building backlog</li>
-                    <li>Estimating</li>
+                    <li>Create our city backlog</li>
+                    <li>Estimate and prioritize the backlog</li>
+                    <li>Create plans with our lego blocks to deliver and integrate our city</li>
 
                     <br>
-                    Then the game start, we will iterate 3 times for 15mins, each time we will explore:
+                    Then the game start and the lego blocks come out. We will iterate 3 times for 15mins, each time we will explore:
 
                     <li>Sprint Planning</li>
-                    <li>Sprinting</li>
+                    <li>Sprinting (building lego stuff)</li>
                     <li>Sprint Reviewing</li>
 
                     <br>
-                    Finally, a debriefing and photos with the best solutions you have created!
+                    Finally, a debriefing on what was learned, and photos with the best city you have created!
                   </div>
                 </v-card-text>
               </v-card>
@@ -85,8 +86,8 @@
                 <v-card-text class="text-left text-body-1">
                   <div class="ml-md-12 ml-3">
                     <li>Understanding stakeholders needs in a clear and engaging way.</li>
-                    <li>Write user stories to define valuable work to your product or service.</li>
-                    <li>Communication within iterations and shared engagement wth our peers.</li>
+                    <li>Write user stories to define valuable work for your product or service.</li>
+                    <li>Communication within iterations and shared engagement with your teams.</li>
                     <li>Interdependencies management as you build big things.</li>
                     <li>Transparency with information boards</li>
                     <br>
