@@ -25,9 +25,9 @@
                     </div>
                     <div
                       style="z-index: 10;"
-                      class="text-md-h2 text-h5 font-weight-black transition-swing text-left text-decoration-underline mt-md-10 mt-4 mb-6 banner"
+                      class="text-md-h2 text-h5 font-weight-black transition-swing text-left mt-md-10 mt-4 mb-6 banner"
                     >
-                      With LEGO!
+                      With Lego®!
                     </div>
                   </div>
                 </v-col>
@@ -69,18 +69,18 @@
                 class="mx-auto mb-8 text-body-1"
                 max-width="620"
               >
-                Coaching Agile Development, in a simulation with Lego gamification, is a modern method for experiencing <b>capacity planning</b>,
+                Coaching Agile Development, in a simulation with Lego® gamification, is a modern method for experiencing <b>capacity planning</b>,
                 <b>iterative execution</b>, and <b>self-organization principles</b> within a squad of professionals.
                 <br><br>
                 All are encouraged to join, a good squad is a mix of engineering,
                 sales, graphics, business and product.
-                The challenge in this training is to build the best city possible with Lego™ building blocks, that meets the requirements of the "Product Owner”, within a set of restrictions.
+                The challenge in this training is to build the best city possible with Lego® building blocks, that meets the requirements of the "Product Owner”, within a set of restrictions.
               </v-responsive>
               <v-responsive
                 class="mx-auto mb-8 text-body-1"
                 max-width="620"
               >
-                This culture and work principles drive Blackrock's Alphagen Platform Engineering today.
+                This culture and work principles drive Alphagen Platform Engineering today.
               </v-responsive>
               <v-responsive
                 class="mx-auto mb-8 text-body-1"

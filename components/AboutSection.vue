@@ -54,13 +54,13 @@
 
                     <li>Create our city backlog</li>
                     <li>Estimate and prioritize the backlog</li>
-                    <li>Create plans with our lego blocks to deliver and integrate our city</li>
+                    <li>Create plans for our lego® blocks to deliver and integrate our city</li>
 
                     <br>
-                    Then the game start and the lego blocks come out. We will iterate 3 times for 15mins, each time we will explore:
+                    Then the game start and the blocks come out. We will iterate 3 times for 15mins, each time we will explore:
 
                     <li>Sprint Planning</li>
-                    <li>Sprinting (building lego stuff)</li>
+                    <li>Sprinting (building lego® stuff)</li>
                     <li>Sprint Reviewing</li>
 
                     <br>

@@ -42,7 +42,7 @@
                 <br>in <b>Room 4.01</b>.
               </p>
               <p class="mt-2">
-                Be there or be square &#128526;,<br>and the only good square, is a lego block!
+                Be there or be square &#128526;,<br>and the only good square, is a lego® block!
               </p>
             </v-responsive>
           </v-form>

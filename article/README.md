@@ -16,7 +16,7 @@
   - [References](#references)
   - [Github](#github)
 
-NuxtJs is the defacto VueJs framework you would use to build your apps, these being Single Page App (SPA), Server-side Rendering (SSR), or Static-Site Generating (SSG). It's the latter that we will use to create an application for our event - an Agile Development Workshop with Legos.
+NuxtJs is the defacto VueJs framework you would use to build your apps, these being Single Page App (SPA), Server-side Rendering (SSR), or Static-Site Generating (SSG). It's the latter that we will use to create an application for our event - an Agile Development Lego®s Workshop.
 
 Why Nuxt and a Static app? 
 
