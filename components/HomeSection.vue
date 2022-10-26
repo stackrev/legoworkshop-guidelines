@@ -80,7 +80,7 @@
                 class="mx-auto mb-8 text-body-1"
                 max-width="620"
               >
-                This culture and work principles drive Alphagen Platform Engineering today.
+                This culture and work principles drive our organization today.
               </v-responsive>
               <v-responsive
                 class="mx-auto mb-8 text-body-1"

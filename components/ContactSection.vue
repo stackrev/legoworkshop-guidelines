@@ -30,7 +30,7 @@
               max-width="820"
             >
               <span style="overflow: visible;">
-                <b><a href="mailto: adam.darmanin@blackrock.com">adam.darmanin@blackrock.com</a></b>
+                <b><a href="mailto: agile@agile.com">agile@agile.com</a></b>
               </span>
             </v-responsive>
             <v-responsive

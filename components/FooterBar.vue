@@ -47,7 +47,7 @@
             class="text-center"
             cols="12"
           >
-            2022 - <strong>Adam Darmanin | Director | Alphagen</strong>
+            2022 - <strong>Agile Coach | Agile Organization.</strong>
           </v-col>
         </v-row>
       </v-card-text>
